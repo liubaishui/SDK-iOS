@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.platform = :ios,'11.0'
   s.frameworks = 'AudioToolbox', 'CoreMedia', 'ExternalAccessory', 'GLKit', 'MobileCoreServices', 'NetworkExtension', 'OpenAL', 'SystemConfiguration', 'VideoToolbox', 'AVFoundation'
-  s.libraries = 'bz2', 'c++', 'iconv.2.4.0', 'sqlite3.0', 'z'
+  s.libraries = 'bz2', 'c++', 'iconv', 'sqlite3.0', 'z'
   s.vendored_frameworks = 'dist/EZOpenSDK/dynamicSDK/*.framework'
   s.resources = 'dist/EZOpenSDK/dynamicSDK/com.hri.hpc.mobile.ios.player.metallib'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
